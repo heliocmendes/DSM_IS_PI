@@ -3,7 +3,7 @@
  
 Projeto Interdisciplinar das disciplinas: Engenharia de Software I / Desenvolvimento Web I / Design Digital
 
-Nome aluno (a):Pâmela Cristina Borelli 
+Nome aluno (a): Pâmela Cristina Borelli 
 
 Nome aluno (a): Deivid Antônio da Silva 
 
