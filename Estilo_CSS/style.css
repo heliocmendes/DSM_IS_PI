@@ -48,12 +48,14 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
     position: relative;
     align-items: center;
@@ -145,6 +147,7 @@ body {
 .produtos-caixa2 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #00c2ff;
@@ -178,6 +181,7 @@ body {
 .produtos-rodape {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
 }
@@ -211,6 +215,7 @@ body {
 .portifolio-cabecalho {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px;
 }
@@ -251,6 +256,7 @@ body {
 .portifolio-rodape {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -283,6 +289,7 @@ body {
 .parcerias-cabecalho {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px;
 }
@@ -311,6 +318,7 @@ body {
 .parcerias-container-caixa{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     width: 288px;
     height: auto;
@@ -349,6 +357,7 @@ body {
 .parcerias-rodape {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -379,6 +388,7 @@ body {
     height: 200px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -426,6 +436,7 @@ body {
 .rodape-caixa {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
     height: 60px;
@@ -442,6 +453,7 @@ body {
 .principal-servicos {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 200px;
 }
@@ -459,6 +471,7 @@ body {
 .principal-servicos-escrito {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 350px;
     margin-top: 100px;
 }
@@ -483,4 +496,104 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18pt;
     text-align: left;
+}
+
+.secundaria-servicos-cabecalho {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.secundaria-servicos-cabecalho-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.secundaria-servicos-cabecalho-titulo-linha {
+    width: 60px;
+    background-color: black;
+    height: 3px;
+    border: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secundaria-servicos-container-meio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secundaria-servicos-meio-caixa-linha {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    justify-items: center   ;
+    width: 300px;
+}
+
+.secundaria-servicos-meio-linha {
+    width: 3px;
+    background-color: black;
+    height: 28px;
+    border: black;
+}
+
+.secundaria-servicos-meio1 {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    width: 300px;
+    height: 83px;
+}
+
+.secundaria-servicos-meio2 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    width: 300px;
+    height: 83px;
+}
+
+.secundaria-servicos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.secundaria-servicos-container-caixa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 288px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secundaria-servicos-container-caixa-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.secundaria-servicos-container-caixa-titulo-linha {
+    width: 60px;
+    background-color: black;
+    height: 3px;
+    border: black;
+}
+
+.secundaria-servicos-container-caixa-paragrafo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    color: black;
+    padding: 10px;
+    text-align: center; 
 }
