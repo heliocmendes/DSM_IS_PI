@@ -41,6 +41,14 @@ body {
     font-size: 14pt;
 }
 
+.cabecalho-menu-item:hover {
+    background-color: aquamarine;
+}
+
+.cabecalho-menu-item:visited {
+    color: darkgreen;
+}
+
 .conteudo {
     background-color: white;
 }
@@ -100,6 +108,14 @@ body {
     text-align: center;
     margin-top: 20px;
     padding: 5px;
+}
+
+.conteudo-principal-link:hover {
+    background-color: aquamarine;
+}
+
+.conteudo-principal-link:visited {
+    color: darkgreen;
 }
 
 .conteudo-principal-subtitulo2{
@@ -206,6 +222,14 @@ body {
     padding: 5px;
 }
 
+.produtos-rodape-link:hover {
+    background-color: aquamarine;
+}
+
+.produtos-rodape-link:visited {
+    color: darkgreen;
+}
+
 .portifolio {
     background-color: black;
     height: auto;
@@ -279,6 +303,14 @@ body {
     margin-top: 10px;
     padding: 5px;
     margin-bottom: 30px;
+}
+
+.portifolio-rodape-link:hover {
+    background-color: aquamarine;
+}
+
+.portifolio-rodape-link:visited {
+    color: darkgreen;
 }
 
 .parcerias {
@@ -380,6 +412,14 @@ body {
     margin-top: 10px;
     padding: 5px;
     margin-bottom: 30px;
+}
+
+.parcerias-rodape-link:hover {
+    background-color: aquamarine;
+}
+
+.parcerias-rodape-link:visited {
+    color: darkgreen;
 }
 
 .final{
@@ -653,6 +693,11 @@ textarea{
     padding: 5px;
     margin-top: 10px;
     width: 100px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: aquamarine;
 }
 
 .contato-principal-dados-titulo {
