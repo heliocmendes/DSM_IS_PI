@@ -676,6 +676,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 input{
     border: 3px solid #00c2ff;
     width: 400px;
@@ -798,4 +799,141 @@ textarea{
 }
 .slide-imagem:nth-child(4){
     animation-delay: 15s;
+}
+
+.servicos-principal {
+    width: 940px;
+    height: 1160px;
+    margin-left: 200px;
+    display: flex;
+    margin-top: 200px;
+}
+.servicos-principal-cont1 {
+    display: flex;
+    justify-content: center;
+    width: 385px;
+    height: 1160px;
+    margin-right: 100px;
+}
+
+.cont-img-10{
+    margin-top: 50px;
+    width: 385px; height: 578px;
+}
+
+.imagem-10 {
+    width: 385px; height: 578px;
+}
+
+.servicos-principal-cont2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.cont-img-6 {
+    width: 298px; height: 184px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  
+}
+
+.cont-tabela {
+    margin-bottom: 200px;
+}
+
+.tab-parag {
+    background-color: black;
+}
+
+.tab-parag-txt {
+    color: white;
+    padding: 20px;
+}
+
+.cont-tab {
+    background-color: #00c2ff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab1 {
+    width: 148px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.tab2 {
+    width: 148px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.tab3 {
+    width: 148px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.tab4 {
+    width: 148px;
+    text-align: center;
+}
+
+.contato-principal2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+
+.contato-principal-formulario2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: left;
+}
+
+.input2{
+    background-color: black;
+    border: 3px solid #00c2ff;
+    width: 400px;
+    padding: 3px;
+}
+
+.area2{
+    background-color: black;
+    border: 3px solid #00c2ff;
+    width: 400px;
+}
+
+.botao2 {
+    background-color: black;
+    border: 3px solid #00c2ff;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    color: #00c2ff;
+}
+
+.portifolio-cabecalho2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.contato-principal-dados-paragrafo2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    color: white;
 }
