@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+
 body {
     font-size: 100%;
 }
@@ -16,38 +17,43 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-    height: 80px;  
+    height: 120px;  
 }
 
 .cabecalho-imagem {
     width: 62px;
     height: 62px;
+    margin-bottom: 2rem;
+
 }
 
 .cabecalho-logo {
-    width: 62px;
-    height: 62px;
+    width: 100px;
+    height: 100px;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 25px;
+    gap: 40px;
+    font-weight: bolder;
 }
+
 
 .cabecalho-menu-item {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-weight: 400;
-    font-size: 14pt;
+    font-weight: bold;
+    font-size: 18pt;
 }
 
 .cabecalho-menu-item:hover {
-    background-color: aquamarine;
+    background-color: #00c2ff;
+    color: white;
 }
 
-.cabecalho-menu-item:visited {
+/* .cabecalho-menu-item:visited {
     color: darkgreen;
-}
+} */
 
 .conteudo {
     background-color: white;
@@ -111,12 +117,13 @@ body {
 }
 
 .conteudo-principal-link:hover {
-    background-color: aquamarine;
+    background-color: #00c2ff;
+    color: white;
 }
 
-.conteudo-principal-link:visited {
+/* .conteudo-principal-link:visited {
     color: darkgreen;
-}
+} */
 
 .conteudo-principal-subtitulo2{
     font-family: Arial, Helvetica, sans-serif;
@@ -223,12 +230,13 @@ body {
 }
 
 .produtos-rodape-link:hover {
-    background-color: aquamarine;
+    background-color: #00c2ff;
+    color: white;
 }
 
-.produtos-rodape-link:visited {
-    color: darkgreen;
-}
+/* .produtos-rodape-link:visited { */
+    /* color: darkgreen;
+} */
 
 .portifolio {
     background-color: black;
@@ -306,12 +314,13 @@ body {
 }
 
 .portifolio-rodape-link:hover {
-    background-color: aquamarine;
+    background-color: #00c2ff;
+    color: white;
 }
 
-.portifolio-rodape-link:visited {
+/* .portifolio-rodape-link:visited {
     color: darkgreen;
-}
+} */
 
 .parcerias {
    width: 100%;
@@ -415,12 +424,13 @@ body {
 }
 
 .parcerias-rodape-link:hover {
-    background-color: aquamarine;
+    background-color: #00c2ff;
+    color: white;
 }
 
-.parcerias-rodape-link:visited {
+/* .parcerias-rodape-link:visited {
     color: darkgreen;
-}
+} */
 
 .final{
     background-color: black;
@@ -708,7 +718,8 @@ textarea{
 }
 
 .botao:hover {
-    background-color: aquamarine;
+    background-color: #00c2ff;
+    color: white;
 }
 
 .contato-principal-dados-titulo {
